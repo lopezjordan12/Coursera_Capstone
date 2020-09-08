@@ -15,19 +15,12 @@ The target audience of the project is local Seattle government, police, rescue g
 
 The data was collected by the Seattle Police Department and Accident Traffic Records Department from 2004 to present.Our predictor or target variable will be 'SEVERITYCODE' because it measure the severity of an accident from 0 to 3 within the dataset.The variable can take the following values:
 
-• 3—fatality
-• 2b—serious injury
-• 2—injury
-• 1—prop damage
-• 0—unknown
+• 3—fatality, 2b—serious injury, 2—injury, 1—prop damage, 0—unknown
 
 The Dataset contains 221.266 records and 40 columns.
 
 The distribution of the records is the following:
 
-Property Damage Only Collision    137485 , Injury Collision                   58698, Unknown                            21636
-Serious Injury Collision            3098
-Fatality Collision                   349
-Name: SEVERITYDESC, dtype: int64
+Property Damage Only Collision    137485 , Injury Collision                   58698, Unknown                            21636, Serious Injury Collision            3098, Fatality Collision                   349
 
 Finally, because of the existence of null values in some records, the data needs to be preprocessed before any further processing.
