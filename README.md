@@ -24,3 +24,7 @@ The distribution of the records is the following:
 Property Damage Only Collision    137485 , Injury Collision                   58698, Unknown                            21636, Serious Injury Collision            3098, Fatality Collision                   349
 
 Finally, because of the existence of null values in some records, the data needs to be preprocessed before any further processing.
+
+## Data source
+
+http://data-seattlecitygis.opendata.arcgis.com/datasets/5b5c745e0f1f48e7a53acec63a0022ab_0/data
